@@ -5,7 +5,7 @@ const calculator = {
     divide: (a, b) => b !== 0 ? a / b : "Error: Division by zero"
 };
 
- //--- Testing the calculator ---
+// --- Testing the calculator ---
 console.log("Add: 10 + 5 =", calculator.add(10, 5));
 console.log("Subtract: 10 - 5 =", calculator.subtract(10, 5));
 console.log("Multiply: 10 * 5 =", calculator.multiply(10, 5));
